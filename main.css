@@ -1,0 +1,45 @@
+.row-slider{
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 800px;
+    background: bisque;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.block-left, .block-right {
+    position: absolute;
+    padding: 3px 0;
+    width: 50%;
+    background: #d5b59c;
+    /* height: 800px; */
+}
+
+.block-left{
+    top: 0;
+    left: 0;
+}
+
+.block-right{
+    bottom: 0;
+    right: 0;
+}
+/* Вспоминаем для флоата и схлопывания 
+
+.row {
+    position: relative;
+}
+
+.row::after {
+    content: '',
+    display: block;
+    clear: both;
+}
+
+.block-left, .block-right {
+    width: 300px;
+    float: left;
+    background: red;
+}
+*/
